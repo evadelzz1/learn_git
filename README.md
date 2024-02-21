@@ -1,2 +1,3 @@
 # learn_git
-training for git
+
+ver 0.0
