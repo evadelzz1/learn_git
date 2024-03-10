@@ -142,6 +142,10 @@ git checkout main
 # 6) "day3" branch 를 "main" branch 로 병합
 # 7) github 에 "main" branch 로 저장
 # 8) "day3" branch 삭제
+#    git branch -d issue1       (local branch 삭제)
+#    git branch -D issue1       (local branch 강제삭제: -D = --delete --force)
+#    git push origin -d issue1  (remote branch 삭제)
+#    git push origin -D issue1  (remote branch 강제삭제)
 # 9) branch list 확인
 #############################################################
 
