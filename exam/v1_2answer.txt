@@ -151,7 +151,7 @@ git checkout main
 
 git branch -a
 
-git checkout -b day3    # = git branch day3 && git checkout day3
+git checkout -b day3    # (= git branch day3 && git checkout day3)
 
 git branch -a
 
@@ -192,6 +192,8 @@ git push origin day3
 git checkout main
 
 git merge day3
+
+ls -l
 
 git status
 
@@ -298,6 +300,8 @@ git checkout main
 
 git merge day4
 
+ls -l
+
 git status
 
 git push origin main
@@ -332,8 +336,6 @@ git tag
 git tag v1.1
 
 git tag
-
-git show v1.1
 
 git push origin v1.1
 
