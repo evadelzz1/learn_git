@@ -234,6 +234,7 @@ git show v1.0
 
 git push origin v1.0
 
+git tag
 
 
 ##### 미션.day4  ########################################################
@@ -339,7 +340,7 @@ git tag
 
 git push origin v1.1
 
-
+git tag
 
 
 ### 수고하셨습니다.
