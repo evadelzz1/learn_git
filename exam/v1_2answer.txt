@@ -226,15 +226,15 @@ git checkout main
 
 git tag
 
-git tag v1.0
+git tag v1.0 -m "ver1.0"
 
-git tag
+git tag -n
 
 git show v1.0
 
 git push origin v1.0
 
-git tag
+git ls-remote --tags origin
 
 
 ##### 미션.day4  ########################################################
@@ -334,13 +334,13 @@ git checkout main
 
 git tag
 
-git tag v1.1
+git tag v1.1 -m "ver1.2"
 
-git tag
+git tag -n
 
 git push origin v1.1
 
-git tag
+git ls-remote --tags origin
 
 
 ### 수고하셨습니다.
